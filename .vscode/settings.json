@@ -1,0 +1,40 @@
+{
+	"c_project": {
+		// Directory στο οποίο βρίσκεται το πρόγραμμα
+		"dir": "programs/askisi6",
+
+		// Όνομα του εκτελέσιμου προγράμματος
+		"program": "life_gif",
+
+		// Ορίσματα του προγράμματος.
+		// - Για ανακατεύθυνση εισόδου βάζουμε ορίσματα: "<", "input-file"
+		// - Για ανακατεύθυνση εξόδου  βάζουμε ορίσματα: ">", "output-file"
+		//
+		// Θέτωντας ένα όρισμα σε #, το όρισμα αυτό και τα επόμενά του αγνοούνται
+		// όταν τρέχουμε το πρόγραμμα στον debugger.
+		//
+		"arg1": "temp",
+		"arg2": "0",
+		"arg3": "0",
+		"arg4": "20",
+		"arg5": "20",
+		"arg6": "30",
+		"arg7": "1",
+		"arg8": "5",
+		"arg9": "100",
+		"arg10": "life_gif",
+	},
+	"files.associations": {
+		"common_types.h": "c",
+		"adtmap.h": "c",
+		"stdlib.h": "c",
+		"adtset.h": "c",
+		"pq_sort.h": "c",
+		"string.h": "c",
+		"adtpriorityqueue.h": "c",
+		"adtvector.h": "c",
+		"adtlist.h": "c",
+		"stdio.h": "c",
+		"life.h": "c"
+	},
+}
