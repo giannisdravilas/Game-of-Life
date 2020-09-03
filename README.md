@@ -3,22 +3,31 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 
 ### How to run:
 
+```
 make
+```
 
 __Test life.c module:__
 
+```
 cd tests
 cd life_test
 ./life_test
+```
 
 __Make a life gif:__
 
+```
 cd programs
 cd askisi6
 ./life_gif <rle file> <top coordinates> <left coordinates> <bottom coordinates> <right coordinates> <frames>=1> <zoom>0> <speed>=1> <delay> <gif name>
+```
 
-For example: ./life_gif file 0 0 20 20 100 1 1 1 life_gif
+For example: 
+```
+./life_gif file 0 0 20 20 100 1 1 1 life_gif
 while file.rle contains: bo$2bo$3o!
+```
 
 ### Based on the following exercise from k08.chatzi.org (in Greek):
 
