@@ -1,6 +1,25 @@
 # Game-of-Life
 Conway's Game of Life is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
 
+How to run:
+
+make
+
+How to test life.c module:
+
+cd tests
+cd life_test
+./life_test
+
+How to make a life gif:
+
+cd programs
+cd askisi6
+./life_gif <rle file> <top coordinates> <left coordinates> <bottom coordinates> <right coordinates> <frames>=1> <zoom>0> <speed>=1> <delay> <gif name>
+
+For example: ./life_gif file 0 0 20 20 100 1 1 1 life_gif
+while file.rle contains: bo$2bo$3o!
+
 Based on the following exercise from k08.chatzi.org (in Greek):
 
 Το “Παιχνίδι της Ζωής” (“Game of Life”) είναι ένα “κυτταρικό αυτόματο” το οποίο κατασκευάστηκε από τον μαθηματικό John Horton Conway το 1970. Κάθε κατάσταση του παιχνιδιού αυτού περιλαμβάνει έναν δισδιάστατο πίνακα απείρου μεγέθους, στον οποίο κάθε κελί έχει ακέραιες συντεταγμένες x,y. Ως συνήθως ο άξονας x είναι ο οριζόντιος, στον οποίο οι συντεταγμένες αυξάνονται προς τα δεξία, ενώ y είναι ο κατακόρυφος, στον οποίο βολεύει περισσότερο οι συντεταγμένες να αυξάνονται προς τα κάτω (αν προτιμάτε ο y να αυξάνεται προς τα πάνω κανένα πρόβλημα). Κάθε κελί μπορεί να είναι είτε “ζωντανό” είτε “νεκρό”. Το παιχνίδι ξεκινάει από κάποια δοσμένη αρχική κατάσταση, και σε κάθε χρονική στιγμή εξελίσσεται ακολουθώντας τους παρακάτω πολύ απλούς κανόνες:
