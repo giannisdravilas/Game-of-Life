@@ -187,7 +187,7 @@ void test_life_evolve(void){
 
 //Λίστα με όλα τα tests προς εκτέλεση
 TEST_LIST = {
-	{ "test_life_create", test_life_create },
+    { "test_life_create", test_life_create },
     { "test_life_create_from_rle", test_life_create_from_rle },
     { "test_life_save_to_rle", test_life_save_to_rle },
     { "test_life_get_cell", test_life_get_cell },
