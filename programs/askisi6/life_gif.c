@@ -106,8 +106,7 @@ int main(int argc, char *argv[]) {
 		gif_add_frame(gif, bitmap);
 	}
 	
-	//Ελέγχουμε αν έχει βρεθεί επανάληψη στην life_evolve_many() και συνεχίζουμε το animation (δεν ζητείται στην
-	//εργασία, αλλά στο piazza ο κος. Χατζηκοκολάκης ανέφερε ότι θα ήταν ένα ωραίο feature αν το προσθέταμε).
+	//Ελέγχουμε αν έχει βρεθεί επανάληψη στην life_evolve_many() και συνεχίζουμε το animation.
 	if(*loop != NULL){
 		while(i < frames){
 			for(ListNode node = *loop; (node != LIST_EOF && i < frames); node = list_next(list, node)){
